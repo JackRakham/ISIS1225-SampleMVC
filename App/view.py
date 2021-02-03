@@ -76,6 +76,8 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     # TO-DO: Modificaciones para completar el laboratorio 1.
+    elif int(inputs[0] == 3):
+        print("Cargar tags de libros")
 
     else:
         sys.exit(0)
